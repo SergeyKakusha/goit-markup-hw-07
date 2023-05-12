@@ -1054,3 +1054,91 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 .btn-color {
     color: var(--logo-btn-color);
 }
+
+/* ++++ delete+++++ */
+
+.banner {
+    min-height: 600px;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ----- tablet ------- */
+
+/* 1x-96dpi */
+/* 2x-192dpi */
+/* 3x-288dpi */
+
+/* @media screen and (min-width: 768px) {
+    .banner {
+        background-image: url(../images/car-tablet.jpg);
+    }
+}
+
+
+/* @media screen and (min-device-pixer-ratio: 2) and (min-width: 768px),
+screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .banner {
+        background-image: url(../images/car-tablet@2x.jpg);
+    }
+} */
+
+/* -------- mobil----- */
+/* @media screen and (min-device-pixer-ratio: 2) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px) {
+    .banner {
+        background-image: url(../images/car-mobil@2x.jpg);
+    }
+}
+
+
+
+
+/* ----- desktop ------- */
+/* @media screen and (min-width: 768px) {
+    .banner {
+        background-image: url(../images/car-desktop.jpg);
+    }
+}
+
+
+
+@media screen and (min-device-pixer-ratio: 2) and (min-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    .banner {
+        background-image: url(../images/car-desktop@2x.jpg);
+    }
+} */
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
