@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!--========================Header============================ -->
+    <!--======================== Header ============================ -->
 
     <header class="shadow page-header">
       <div class="container page-header-container">
@@ -63,16 +63,17 @@
           </ul>
         </address>
       </div>
+      <!-- /* ------------- Header-mob-version ---------- */ -->
       
-      <div class="mobile-menu is-open" js-menu-container>
-        <div class="container mobile-menu-container">
-          <button class="mobile-menu-close-btn" js-close-menu>
-          <svg class="mobile-menu-close-icon" width="24" height="24">
+<div class="mobile-menu is-open js-menu-container">
+        
+      <button class="mobile-menu-close-btn js-close-menu" type="button">
+          <svg class="mobile-menu-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
-        </button>
+      </button>
         
-    <div class="mobile-menu-div">
+    
       <ul class="mobile-menu-list list">
         <li class="mobile-menu-list-link" >
           <a class="mobile-menu-list-link-adr link" href="index.html">Studio</a>
@@ -84,9 +85,9 @@
           <a class="mobile-menu-list-link-adr link" href="">Contacts</a>
         </li>
       </ul>
-    </div>
+    
   
-    <div class="mobile-menu-addressa">
+    <address class="mobile-menu-addressa">
       <ul class="mobile-menu-addressa-link">
         <li class="mobile-menu-addressa-tel list">
           <a href="tel:+110001111111" class="mobile-adr-addressa link" 
@@ -98,8 +99,10 @@
           >
         </li>
       </ul>
-    </div>
-    <div class="mobile-menu-soial-list">
+    </address>
+
+
+    
       <ul class="mobile-icon-our-team-list">
         <li class="mobile-icon-our-team-list-link list">
           <a href="" class="mobile-cocial-list-icon list"
@@ -146,15 +149,13 @@
           </a>
         </li>
       </ul>
-    </div>
+   
+</div>
 
-
-
-      </div>
-   </div>
+   
 
   
-   
+   <!-- /* ------------- /Header-mob-version ---------- */ -->
    
   
        
@@ -747,6 +748,7 @@
       </div>
     </div>
     <script src="./js/model.js"></script> -->
+    
     <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
