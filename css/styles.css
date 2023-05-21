@@ -303,7 +303,7 @@ margin-right: 76px;
         display: none;
     }
     .modal {
-    width: 392px;
+    max-width: 392px;
     }
    
  }
