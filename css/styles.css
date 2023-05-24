@@ -120,10 +120,10 @@ text-decoration: none;
 
  
   .mobile-menu {
-    position: absolute;
-    overflow: hidden;
-    transform: translate(0 100%);
-  }
+   position: absolute;
+   overflow: hidden;
+   transform: translate(-100%);
+}
   .mobile-menu:hover .mobile-menu-open ,
   .mobile-menu:focus .mobile-menu-open {
     transform: translate(0 0);
@@ -143,6 +143,8 @@ text-decoration: none;
     background-color: var(--fond-color);
     z-index: 1000;
     transition: transform var(--transition);
+    transform: translateX(0);
+    
   
     
 }
@@ -1421,6 +1423,19 @@ transition: border var(--transition), color var(--transition), box-shadow var(--
     transform: translate(-50%, -50%);
     padding: 72px 24px 24px 24px;
 }
+
+
+@media screen and (max-width: 767px) {
+.modal {
+width: 100%;
+max-width: 392px;
+}
+   
+}
+
+
+
+
 .modal-close-btn {
     position: absolute;
     top: 24px;
