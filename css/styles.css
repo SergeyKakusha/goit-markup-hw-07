@@ -188,7 +188,10 @@ text-decoration: none;
     color: #2E2F42;
     }
 
-
+/* .mobile-menu-list-link-adr:hover,
+.mobile-menu-list-link-adr:focus {
+    color: var(--btn-color);
+} */
 
 .mobile-menu-addressa-link {
         display: flex;
@@ -346,8 +349,8 @@ padding-bottom: 24px;
 transition: color var(--transition);
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.mobile-menu-list-link-adr:hover,
+.mobile-menu-list-link-adr:focus {
     color: var(--btn-color);
 }
 
