@@ -170,7 +170,7 @@ text-decoration: none;
     fill: var(--accent-color);
 }
 
-.mobile-menu-list {
+.mobil-menu-link {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -188,10 +188,10 @@ text-decoration: none;
     color: #2E2F42;
     }
 
-/* .mobile-menu-list-link-adr:hover,
+.mobile-menu-list-link-adr:hover,
 .mobile-menu-list-link-adr:focus {
     color: var(--btn-color);
-} */
+}
 
 .mobile-menu-addressa-link {
         display: flex;
@@ -349,8 +349,8 @@ padding-bottom: 24px;
 transition: color var(--transition);
 }
 
-.mobile-menu-list-link-adr:hover,
-.mobile-menu-list-link-adr:focus {
+.menu-link:hover,
+.menu-link:focus {
     color: var(--btn-color);
 }
 
