@@ -526,22 +526,109 @@ gap: 40px;
     background-size: cover;
     max-width: 1440px;
     margin: 0 auto;
-
-    
 } 
+
+
+ 
+ /* -----------------   media-hero-foto ------------------ */ 
+
+@media only screen and (max-width: 428px) {
+    .section-hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/hero/mob/people-office-mob.jpg");
+    }
+  
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .section-hero {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url("../images/hero/mob/people-office-mob@2x.jpg");
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 429px) and (max-width: 768px) {
+    .section-hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/hero/tab/people-office-tab.jpg");
+    }
+  
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .section-hero {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url("../images/hero/tab/people-office-tab@2x.jpg");
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .section-hero {
+      height: 436px;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) {
+    .section-hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/hero/des/people-office-des.jpg");
+    }
+  
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .section-hero {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url("../images/hero/des/people-office-des@2x.jpg");
+      }
+    }
+  }
+  @media only screen and (min-width: 1158px) {
+    .section-hero {
+      padding: 188px 0;
+      max-width: 1440px;
+      height: 600px;
+    }
+  }
+  
+ /* -----------   /media-hero-foto ------------------ */ 
+  
+
+
+
+
 @media screen and (max-width: 767px) {
     .hero-h {
         max-width: 320px;
         font-size: 36px;
         padding: 112px 0;
-        
     } 
     .modal-btn {
         margin-top: 72px;
     }
-    
-
 }
+
+
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .modal-btn {
