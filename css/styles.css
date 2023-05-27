@@ -1714,12 +1714,12 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 
   
   .modal-form-check-desc {
-    /* display: inline-block;
+    display: inline-block;
     vertical-align: middle;
-    margin-right: 8px;
-    margin-left: 0; */
-    display: flex;
-    align-items: center;
+    margin-right: auto;
+   
+    /* display: flex;
+    align-items: center; */
     font-size: 12px;
     margin-bottom: 24px;
     font-weight: 400;
