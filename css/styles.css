@@ -1662,7 +1662,8 @@ max-width: 392px;
 
 .modal-form-check-desc::before {
     background-image: url(../images/modal/vector-modal.svg);
-    display: block;
+    /* display: block; */
+    display: inline-block;
     content: "";
    
     width: 16px;
@@ -1714,12 +1715,12 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 
   
   .modal-form-check-desc {
-    /* display: inline-block;
+    /* display: inline-block; */
     vertical-align: middle;
-    margin-right: auto; */
+    /* margin-right: auto; */
    
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     font-size: 12px;
     margin-bottom: 24px;
     font-weight: 400;
